@@ -9,7 +9,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
  .page > * {
-    padding: 16px 10%;
+    padding: 24px 10%;
  }
 
  header, .hero, footer {
@@ -156,4 +156,10 @@ button {
 .signup-button {
     flex: none;
     border: 3px solid #f9faf8;
+}
+
+footer {
+    color: #f9faf8;
+    text-align: center;
+    font-size: medium;
 }
