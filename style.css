@@ -16,7 +16,7 @@ body {
     background-color: #1f2937;
  }
 
-.info, .signup {
+.info, .signup-container {
     background-color: white;
 }
 
@@ -63,7 +63,7 @@ header {
 button {
     background-color: #3882f6;
     border: 0;
-    padding: 8px 24px;
+    padding: 8px 32px;
     font-size: 18px;
     font-weight: bold;
     color: #f9faf8;
@@ -129,4 +129,31 @@ button {
     font-weight: 700;
     text-align: right;
 }
- 
+
+.signup-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 2em 7em;
+    margin: 3em 0;
+}
+
+.signup-header {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.signup-text {
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: -1em;
+}
+
+.signup-button {
+    flex: none;
+    border: 3px solid #f9faf8;
+}
