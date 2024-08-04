@@ -8,14 +8,17 @@ body {
     flex-direction: column;
     font-family: "Roboto", sans-serif;
 }
- .page :only-child {
+ .page > * {
     padding: 16px 10%;
+ }
+
+ header, .hero, footer {
+    background-color: #1f2937;
  }
 
 header {
     display: flex;
-    justify-content: space-between;
-    background-color: #1f2937;
+    justify-content: space-between;   
     align-items: center;
 }
 
@@ -29,4 +32,45 @@ header {
     color: #e5e7eb;
     text-decoration: none;
     margin-left: 1em;
+}
+
+.hero {
+    display: flex;
+    gap: 2em;
+}
+
+.hero-text, .hero-image {
+    flex: 1;
+    padding: 3em 0;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    border: 0;
+    padding: 8px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+    border-radius: 5px;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-clip: content-box;
+    background-color: #aaa;
+    color: #f9faf8;
 }
