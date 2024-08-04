@@ -108,3 +108,25 @@ button {
     color: #1f2937;
     text-align: center;
 }
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding-left: 10%;
+}
+
+.quote-text {
+    padding: 0 10%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote-attribution {
+    padding: 0 15%;
+    margin-top: -1em;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
+ 
